@@ -15,9 +15,49 @@ export const Form = styled.form`
   button{
     cursor: pointer;
   }
-  @media only screen and (max-width: 1200px) {
-   width: 100%; 
+
+  @media only screen and (max-width: 600px) {
+    
+width: 100%;
+/* margin-left: 35%; */
   }
+
+  @media only screen and (min-width: 600px) {
+width: 600px;
+  }
+
+  @media only screen and (min-width: 768px) {
+width: 768px;
+  }
+
+  @media only screen and (min-width: 992px) {
+width: 992px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+width: 1200px;
+  }
+
+  /* @media only screen and (max-width: 1200px) {
+   width: 50%; 
+   width: 400px;
+  }
+  
+  @media only screen and (max-width: 1111px) {
+   width: 50%; 
+   width: 400px;
+   margin: auto;
+   margin-left: 28%;
+   input,
+  textarea,
+  button {
+    width: 100%;
+  }
+  }
+  
+  @media only screen and (max-width: 377px) {
+   width: 100%;
+  }  */
 `;
 
 export const CardsWrapper = styled.div`
@@ -26,6 +66,32 @@ export const CardsWrapper = styled.div`
   justify-content: space-evenly;
   width: 1200px;
   margin: auto;
+  
+  @media only screen and (max-width: 600px) {
+    /* width: 50px; */
+    display: block;
+width: 100%;
+margin-left: 35%;
+  }
+
+  @media only screen and (min-width: 600px) {
+width: 600px;
+/* width: 100%; */
+/* display: block; */
+/* margin-left: 35%; */
+  }
+
+  @media only screen and (min-width: 768px) {
+width: 768px;
+  }
+
+  @media only screen and (min-width: 992px) {
+width: 992px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+/* width: 1200px; */
+  }
 `;
 
 export const Toggle = styled.button`
